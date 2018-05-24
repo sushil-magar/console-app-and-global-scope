@@ -7,9 +7,9 @@ define = function(moduleName, fn) {
 require = function(moduleName) {
   const module = definedModules[moduleName];
 
-  // if (!module) {
-  //   throw new Error(`This module ${moduleName} is not available.`);
-  // }
+  if (!module) {
+    throw new Error(`This module ${moduleName} is not available.`);
+  }
 
   return module;
 }
