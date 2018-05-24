@@ -1,0 +1,17 @@
+{
+  "name": "task1",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "node-fetch": "^2.1.2",
+    "readline-sync": "^1.4.9",
+    "whatwg-fetch": "^2.0.4"
+  }
+}
