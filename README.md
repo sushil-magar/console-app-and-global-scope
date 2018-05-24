@@ -1,5 +1,7 @@
-# console-application-fetch-api
-Console based application in Node to showcase Fetch API
+# Console app and global scope
+Task 1: Console application in node to use fetch api.
+Task 2: This repo showcases how the global scope works in javascript
+
 
 
 # Task 1
