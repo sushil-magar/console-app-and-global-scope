@@ -1,2 +1,2 @@
 window.define();
-window.require();
+// window.require();

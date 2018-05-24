@@ -7,11 +7,11 @@ define = function(moduleName, fn) {
 require = function(moduleName) {
   const module = definedModules[moduleName];
 
-  if (!module) {
-    throw new Error(`This module ${moduleName} is not available.`);
-  }
-  
-  return definedModules[moduleName];
+  // if (!module) {
+  //   throw new Error(`This module ${moduleName} is not available.`);
+  // }
+
+  return module;
 }
 
 define('sum', (a, b) => a + b);
